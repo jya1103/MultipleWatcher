@@ -1,0 +1,14 @@
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.exe.config
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.exe
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.pdb
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.csprojAssemblyReference.cache
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.csproj.CoreCompileInputs.cache
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.exe
+C:\Users\jya1104\OneDrive\GitHub\aqw\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.pdb
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.exe.config
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.exe
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\bin\Debug\IntelFileSystemWatcher.pdb
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.csprojAssemblyReference.cache
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.csproj.CoreCompileInputs.cache
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.exe
+C:\Users\jya1104\OneDrive\GitHub\FileSystemWatcher\ConsoleApp1\ConsoleApp1\obj\Debug\IntelFileSystemWatcher.pdb
