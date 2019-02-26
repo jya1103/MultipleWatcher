@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 //https://www.infoworld.com/article/3185447/c-sharp/how-to-work-with-filesystemwatcher-in-c.html
 //https://www.geeksforgeeks.org/c-sharp-arraylist-class/
 namespace MonitorIntelFolderActivity
@@ -13,9 +14,14 @@ namespace MonitorIntelFolderActivity
     internal class Program
 	//class Program
     {
+        [DllImport("User32.dll", CharSet = CharSet.Unicode)]
+
+        public static extern int MessageBox(IntPtr h, string m, string c, int type);
+
+
         //Make sure your Main method (in Program.cs) is defined as:
-//Then args is an array containing the command-line arguments.
-           public static void Main(string[] args)
+        //Then args is an array containing the command-line arguments.
+        public static void Main(string[] args)
     {
         Run();
     }
@@ -36,6 +42,8 @@ string[] args = Environment.GetCommandLineArgs();
                 // Display the proper way to call the program.
                 Console.WriteLine("Usage: Watcher.exe (path1 path2)");
                 // Console.ReadKey();
+                MessageBox((IntPtr)0, "bad", "My Message Box", 0);
+
                 // Wait for the user to quit the program.
                 Console.WriteLine("Press 'q' to quit the sample.");
                 while (Console.Read() != 'q') ;
@@ -182,6 +190,8 @@ string[] args = Environment.GetCommandLineArgs();
             Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(Convert.ToString(DateTime.Now) +" - " + sLog);
+            MessageBox((IntPtr)0, (Convert.ToString(DateTime.Now) + " - " + sLog), "My Message Box", 0);
+
         }
     }
 }
